@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+
+}
+
+h1,
+h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.btn {
+  background: #7c5dfa;
+  padding: 7px 25px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  color: #777;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  line-height: 150px;
+  background: #7c5dfa;
+  border-radius: 0px 0px 0px 50px;
+}
+
+.container {
+  margin: auto;
+}
+
+.header h1 {
+  color: #fff;
+  margin: 10px;
+}
+
+.job_list_wrapper {
+  padding: 15px;
+  margin-top: -70px;
+  margin-left: 50px;
+  background: #fff;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.search_panel {
+  margin: 5px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.search_paneltc,
+.search_panelmap {
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  margin: 0 15px;
+  width: 30%;
+}
+
+.search_paneltc {
+  padding: 5px;
+}
+
+.search_panelmap {
+  padding: 5px;
+}
+.sp{
+  padding: 0;
+  margin: 0;
+  width: 20px;
+  color: #7c5dfa;
+}
+.spp {
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  color: #7c5dfa;
+
+}
+
+.search_panelfil select {
+  padding: 15px 25px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.search_panelfil {
+  width: 12%;
+}
+
+.search_paneltc input,
+.search_panelmap input {
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+
+.jobs_wrapper {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.job_item {
+  width: 350px;
+  margin-bottom: 50px;
+}
+
+.job_item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.job_content h6 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.job_content h1 {
+  margin-bottom: 10px;
+}
+
+.job_content h1 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.location p {
+  margin-top: 30px;
+}
+
+.location p span {
+  color: #7c5dfa;
+}
+
+.details_wrapper {
+  margin-top: -30px;
+  margin-left: 5%;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details_top {
+ 
+  margin-bottom: 30px;
+}
+
+
+
+.details_top button {
+  padding: 7px 25px;
+  border-radius: 5px;
+  background: #7c5dfa3b;
+  border: none;
+}
+.bnn {
+  text-decoration: none;
+  color: #7c5dfa;
+  font-size: 0.9rem;
+}
+
+
+.about_job h6 {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.about_job h6 {
+  font-size: 0.9rem;
+  color: #777;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.about_job h1 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.about_job span {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #7c5dfa;
+}
+
+.about_job {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.job_desc {
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.requirements h1 {
+  margin-bottom: 10px;
+}
+
+.responsibility h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.requirements p,
+.responsibility p {
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+
+.requirement_item,
+.responsibility_item {
+  padding-left: 30px;
+}
+.requirement_item li,
+.responsibility_item li {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding: 0px 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1,
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .job_item {
+    width: 300px;
+  }
+
+  .search_panel {
+    row-gap: 1rem;
+  }
+  .search_paneltc,
+  .search_panelfil select {
+    padding: 7px 20px;
+  }
+
+  .search_panelmap {
+    padding: 5px 20px;
+  }
+
+  .btn {
+    padding: 5px 30px;
+    font-size: 0.7rem;
+
+  }
+}
+
+.search_paneltc input,
+.search_panelmap input,
+.search_panelfil select {
+  font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .search_panelmap {
+    display: none;
+  }
+}
